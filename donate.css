@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------Starting of Banner Section---------- */
+
+#banner{
+    background-image: linear-gradient(rgba(59, 57, 57, 0.5),#151817) , url(/images/donation9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner_text{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.banner_text h1{
+    font-size: 60px;
+}
+
+.banner_p{
+    padding: 0px 130px;
+}
+
+.banner_b{
+    padding: 11px 28px;
+    background-color: rgb(204, 67, 67);
+    margin: 32px 338px;
+    border-radius: 10px;
+}
+
+.banner_b a{
+    text-decoration: none;
+}
+
+.banner_b span{
+    color: white;
+    font-weight: bold;
+    
+}
+
+/* ----------Ending of Banner Section---------- */
+
+
+/* ----------Starting of Donate Section---------- */
+

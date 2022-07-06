@@ -177,9 +177,7 @@
 
 /* ----------Starting of Contribute Section---------- */
 
-#contribute{
-    /* height: 200px; */
-}
+
 
 .same{
     display: flex;
@@ -241,3 +239,84 @@
 
 }
 /* ----------Ending of Contribute Section---------- */
+
+/* ----------Starting of Update Section---------- */
+
+#update{
+
+}
+
+.update_full{
+    padding: 0px 250px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.color{
+    background-color: rgba(255, 244, 214, 1);
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 215px;
+    padding-right: 340px;
+    margin-left: 10px;
+    margin-right: 10px;   
+    
+}
+
+.two{
+    display: flex;
+    width: 135%;
+    
+}
+
+.subscribe{
+    color: aliceblue;
+    background-color: rgba(255, 89, 89, 1);
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.subscribe a{
+    text-decoration: none;
+    color: white;
+}
+
+.email input{
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+/* ----------Starting of Update Section---------- */
+
+
+/* ----------Starting of Footer Section---------- */
+
+.foot{
+    background-color: black;
+    color: aliceblue;
+    height: 160px;
+    text-align: center;
+}
+
+.humble{
+
+}
+
+.hum_h{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(179, 73, 73);
+    font-style: italic;
+    
+}
+
+.hum_text{
+    font-size: large;
+    font-weight: lighter;
+}
+
+/* ----------Starting of Footer Section---------- */

@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     font-family: 'Poppins', sans-serif;
@@ -6,14 +6,14 @@
 
 /* ----------Starting of Banner Section---------- */
 
-#banner{
-    background-image: linear-gradient(rgba(59, 57, 57, 0.5),#151817) , url(/images/donation9.jpg);
+#banner {
+    background-image: linear-gradient(rgba(59, 57, 57, 0.5), #151817), url(/images/donation9.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
-.banner_text{
+.banner_text {
     color: white;
     text-align: center;
     padding-top: 150px;
@@ -21,29 +21,29 @@
     padding-right: 250px;
 }
 
-.banner_text h1{
+.banner_text h1 {
     font-size: 60px;
 }
 
-.banner_p{
+.banner_p {
     padding: 0px 130px;
 }
 
-.banner_b{
+.banner_b {
     padding: 11px 28px;
     background-color: rgb(204, 67, 67);
     margin: 32px 338px;
     border-radius: 10px;
 }
 
-.banner_b a{
+.banner_b a {
     text-decoration: none;
 }
 
-.banner_b span{
+.banner_b span {
     color: white;
     font-weight: bold;
-    
+
 }
 
 /* ----------Ending of Banner Section---------- */
@@ -51,41 +51,39 @@
 
 /* ----------Starting of Donate Section---------- */
 
-#donate{
+#donate {}
 
-}
-
-.donate_full{
+.donate_full {
     margin: auto;
     padding: 90px 258px;
+    padding-bottom: 20px;
 }
 
-.donate_text{
+.donate_text {
     text-align: center;
     padding: 0px 47px
-
 }
 
-.donate_h h1{
+.donate_h h1 {
     font-size: 50px;
 }
 
-.donate_p{
+.donate_p {
     color: rgb(68, 66, 61);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.donate_b{
+.donate_b {
     width: auto;
     display: flex;
     text-align: center;
     padding: 8px 19px;
 }
 
-.donate_box{
+.donate_box {
     width: 75px;
-    background-color: rgb(245, 238, 214);
+    background-color: rgb(235, 221, 221);
     color: rgb(77, 66, 66);
     text-align: center;
     padding: 20px 22px;
@@ -94,26 +92,152 @@
     border-radius: 5px;
 }
 
-.only_it{
+.only_it {
     color: #f77b7b;
-    background-color: pink;
+    background-color: rgba(255, 238, 238, 1);
     border: 2px solid #f56c6c;
 }
 
-.donate_box h2{
+.donate_box h2 {
     font-size: 25px;
     padding-top: 25%;
 }
 
-.donate_t{
+.donate_t {
     padding-top: 30px;
 }
-.donate_t input{
+
+.donate_t input {
     width: 100%;
     height: 50px;
-    border-top: none ;
+    border-top: none;
     border-left: none;
     border-right: none;
     text-align: center;
     font-size: large;
 }
+
+/* ----------Ending of Donate Section---------- */
+
+/* ----------Starting of Plan Section---------- */
+
+#plan{
+    height: 800px;
+}
+.plan_box{
+    width: 80%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding-bottom: 100px;
+    height: 400px;
+}
+
+.plan_b{
+    padding-bottom: 50px;
+    
+}
+
+.only_f{
+    margin-right: 20px;
+    width: 40%;
+    background-color: rgba(237, 245, 246, 1);
+}
+
+.only_p{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40%;
+    background-color: rgba(255, 238, 238, 1);
+}
+
+.only_e{
+    margin-left: 20px;
+    width: 40%;
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.img{
+    padding-left: 25px;
+    padding-top: 70px;
+}
+
+.plan_b h2{
+    padding: 20px 25px;
+}
+
+.plan_b p{
+    padding: 0px 25px;
+}
+
+/* ----------Ending of Plan Section---------- */
+
+/* ----------Starting of Contribute Section---------- */
+
+#contribute{
+    /* height: 200px; */
+}
+
+.same{
+    display: flex;
+    width: 80%;
+    position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-bottom: 80px;
+}
+
+.text{
+    width: 50%;
+    
+}
+
+.text h1{
+    font-size: 45px;
+}
+.text p{
+    font-weight: lighter;
+    color: rgb(168, 170, 170);
+    padding-top: 5px;
+    padding-bottom: 23px;
+}
+
+.pad_r{
+    padding-right: 30px;
+}
+.pic{
+    width: 50%;
+}
+
+.pic img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.contribute_b {
+    padding-top: 12px;
+    padding-left: 14px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    background-color: rgb(204, 67, 67);
+    margin-left: 0px;
+    margin-right: 335px;
+    border-radius: 10px;
+}
+
+.contribute_b a {
+    text-decoration: none;
+}
+
+.contribute_b span {
+    color: white;
+    font-weight: bold;
+
+}
+/* ----------Ending of Contribute Section---------- */

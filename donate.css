@@ -241,6 +241,82 @@
 
 /* ----------Ending of Contribute Section---------- */
 
+
+/* ----------Starting of Bonus Section---------- */
+#bonus{
+    padding-bottom: 80px;
+}
+
+.bonus_full{
+    width: 80%;
+    display: flex;
+    padding-left: 120px;
+    padding-right: 20px;
+}
+
+.bonus_form h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.bonus_form{
+    width: 50%;
+    
+
+}
+
+.name{
+    background-color: rgb(228, 235, 241);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mail{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.date{
+    background-color: rgb(228, 235, 241);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gender{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.submit{
+    display: flex;
+    background-color: rgb(228, 235, 241);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.submit input{
+    padding: 12px 105px;
+    background-color: rgb(228, 235, 241);
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bonus_img{
+    width: 50%;
+}
+.bonus_img img{
+    width: 100%;
+    height: 100%;
+    margin-left: 35px;
+    border-radius: 8px;
+
+}
+/* ----------Ending of Bonus Section---------- */
+
+
 /* ----------Starting of Update Section---------- */
 
 #update{
